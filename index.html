@@ -17,14 +17,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://albrto.github.io/uutisraportti-suosittelee/">
   <meta property="og:title" content="Uutisraportti – Suosittelee">
-  <meta property="og:description" content="Kaikki Helsingin Sanomien Uutisraportti-podcastin kulttuuri- ja kulutussuositukset yhdessä paikassa.">
+  <meta property="og:description"
+    content="Kaikki Helsingin Sanomien Uutisraportti-podcastin kulttuuri- ja kulutussuositukset yhdessä paikassa.">
   <meta property="og:image" content="https://albrto.github.io/uutisraportti-suosittelee/og-image.png">
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://albrto.github.io/uutisraportti-suosittelee/">
   <meta property="twitter:title" content="Uutisraportti – Suosittelee">
-  <meta property="twitter:description" content="Kaikki Helsingin Sanomien Uutisraportti-podcastin kulttuuri- ja kulutussuositukset yhdessä paikassa.">
+  <meta property="twitter:description"
+    content="Kaikki Helsingin Sanomien Uutisraportti-podcastin kulttuuri- ja kulutussuositukset yhdessä paikassa.">
   <meta property="twitter:image" content="https://albrto.github.io/uutisraportti-suosittelee/og-image.png">
 </head>
 
@@ -86,7 +88,8 @@
     <footer class="footer">
       <div class="feedback-container">
         <h3>Anna palautetta tai ehdota korjausta</h3>
-        <form name="palaute" method="POST" action="/" data-netlify="true">
+        <form name="palaute" method="POST" action="/kiitos.html" netlify>
+          <input type="hidden" name="form-name" value="palaute" />
           <div class="form-group">
             <input type="text" name="nimi" placeholder="Nimesi (valinnainen)">
           </div>
